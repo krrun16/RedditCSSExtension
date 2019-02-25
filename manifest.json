@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "asdf",
+  "version": "1.0",
+  "description": "Lateral blog post demo extension",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.reddit.com/*","http://*.reddit.com/*"],
+      "css": ["css/styles.css"],
+      "run_at": "document_start",
+      "js": ["js/content.js"]
+    }
+  ],
+  "permissions": [ "https://*.reddit.com/*", "http://*.reddit.com/*", "storage" ]
+}
