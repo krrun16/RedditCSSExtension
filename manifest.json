@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "asdf",
-  "version": "1.0",
+  "name": "reddit-css-extension",
+  "version": "0.2.0",
   "description": "Lateral blog post demo extension",
 
   "content_scripts": [
