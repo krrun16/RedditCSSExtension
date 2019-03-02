@@ -166,6 +166,4 @@ function hideUselessExpando() {
 			expandos[i].parentElement.style.display = "none";
 		}
 	};
-}	
-
-console.log("Simple Reddit loaded")
+}
